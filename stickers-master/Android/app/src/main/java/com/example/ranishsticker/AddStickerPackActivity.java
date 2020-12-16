@@ -100,6 +100,9 @@ public abstract class AddStickerPackActivity extends BaseActivity {
                     new StickerPackNotAddedMessageFragment().show(getSupportFragmentManager(), "sticker_pack_not_added");
                 }
             }
+            else{
+                EntryActivity.ShowAd();
+            }
         }
     }
 
